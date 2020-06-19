@@ -1,0 +1,33 @@
+# oven语言语法大纲
+> oven语言由脑电波编写，是一款低级语言，面向空气编程。
+
+> oven语言构想于2020年6月18日
+
+> oven语言的命名者是Neon.Rider
+
+* hello world 的编写
+
+```
+basics file（start）：
+/basics file是基础文件，是一个固定的值，不可变，这里命名为start做示范，导入的事物要在冒号前换行并缩进，「import」导入的事物被包含在基础文件名内/
+begin：
+/begin是开始编写的记号，在「（start）：」后可以导入「import」，要导入的事物都要记于begin前/
+output（chars）“hello world”
+/ouput是输出的意思，「（chars）」是类型名，「“hello world”」是输出/
+links start
+/links start意为开始运行 灵感提供者——孤王/
+end；
+/end；是结束的意思，后只可跟注释/
+```
+* 单行注释为！+  空格 + 注释
+`！ my first lesson`
+* 多行注释为*<注释>*
+```
+*<my first lesson
+i love oven>*
+```
+* 定义函数为function +空格+函数名 +（args）加冒号，换行缩进写定义。
+```
+function test（args）：
+     output（chars）“my first lesson”
+```
